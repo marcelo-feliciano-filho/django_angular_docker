@@ -16,6 +16,7 @@ import {ProductsComponent} from './secure/products/products.component';
 import {ProductCreateComponent} from './secure/products/product-create/product-create.component';
 import {ProductEditComponent} from './secure/products/product-edit/product-edit.component';
 import {OrdersComponent} from './secure/orders/orders.component';
+import {OrderViewComponent} from './secure/orders/order-view/order-view.component';
 
 const routes: Routes = [
   {
@@ -35,6 +36,7 @@ const routes: Routes = [
       {path: 'products/create', component: ProductCreateComponent},
       {path: 'products/:id/edit', component: ProductEditComponent},
       {path: 'orders', component: OrdersComponent},
+      {path: 'orders/:id', component: OrderViewComponent},
     ]
   },
   {
